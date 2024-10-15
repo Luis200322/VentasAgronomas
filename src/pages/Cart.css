@@ -1,0 +1,120 @@
+/* Contenedor del carrito */
+.cart-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del carrito */
+.cart-container h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contenido del carrito */
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Productos del carrito */
+.cart-items {
+  flex: 2; /* Ocupa más espacio que el resumen */
+  margin-right: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+/* Item del carrito */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Imagen del producto */
+.cart-item-image {
+  max-width: 80px;
+  height: auto;
+  margin-right: 15px;
+}
+
+/* Detalles del producto */
+.cart-item-details {
+  flex: 1;
+}
+
+/* Título y precio del producto */
+.cart-item h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Precio y cantidad */
+.cart-item p {
+  font-size: 1em;
+  color: #777;
+  margin: 5px 0;
+}
+
+/* Botones para cambiar cantidad */
+.cart-item button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1em;
+}
+
+.cart-item button:hover {
+  background-color: #d1d1d1;
+}
+
+/* Resumen del carrito */
+.cart-summary {
+  flex: 1; /* Ocupa menos espacio que los productos */
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Precio total */
+.cart-summary h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Botón de proceder al pago */
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.checkout-button:hover {
+  background-color: #005bb5;
+}

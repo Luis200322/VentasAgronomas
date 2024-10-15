@@ -1,0 +1,49 @@
+/* Header.css */
+:root {
+    --primary-color: #0071e3; /* Azul de Apple */
+    --hover-color: #FFEB3B; /* Color amarillo al pasar el mouse */
+    --background-color: #333; /* Color de fondo oscuro */
+    --text-color: #fff; /* Color de texto blanco */
+  }
+  
+  header {
+    background-color: var(--background-color); /* Color de fondo oscuro */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave en la parte inferior */
+  }
+  
+  header h1 {
+    color: var(--text-color); /* Color blanco */
+    margin: 0;
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    animation: fadeIn 0.5s; /* Animación de entrada */
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
+  nav a {
+    color: var(--text-color); /* Color blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 15px; /* Espaciado entre enlaces */
+    font-size: 1.2em; /* Tamaño de fuente */
+    transition: color 0.3s ease, transform 0.3s; /* Efecto de transición */
+  }
+  
+  nav a:hover {
+    color: var(--hover-color); /* Color amarillo al pasar el mouse */
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+  }
+  
+  /* Animación de entrada */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
